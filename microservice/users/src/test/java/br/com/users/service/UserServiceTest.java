@@ -42,13 +42,6 @@ public class UserServiceTest {
         Assert.assertNotNull(result);
     }
 
-//    @Test
-//    public void testSave() {
-//        when(userRepository.save(any(UserEntity.class))).thenReturn(getUserEntityMock());
-//        UserEntity userEntity = userService.saveUser(getUserSaveDTOMock());
-//        Assert.assertNotNull(userEntity);
-//    }
-
     private UserEntity getUserEntityMock() {
         UserEntity userEntity = new UserEntity();
         userEntity.setId(1l);
