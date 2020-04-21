@@ -17,7 +17,7 @@
     <properties>
         <java.version>11</java.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
-        <nimbus-jose.version>7.0</nimbus-jose.version>
+        <nimbus-jose.version>7.9</nimbus-jose.version>
         <swagger.version>2.9.2</swagger.version>
     </properties>
 
