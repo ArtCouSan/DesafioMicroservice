@@ -46,6 +46,7 @@ Discovery:
 ## 3 - Verifique o header da requisição e copie do token, pois será utilizado em todo sistema:
 
 ![alt text](https://artcousan.github.io/img/3%20-%20Pegue%20o%20Bearer%20Token%20no%20Header.PNG)
+![alt text](https://artcousan.github.io/img/Nas%20proximas%20requisicoes%20token.PNG)
 
 ## 4 - Cadastre um produto
 
