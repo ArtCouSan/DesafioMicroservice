@@ -19,9 +19,11 @@ Spring Boot + Microservice + Swagger2
 - Clone o projeto
 - Baixe as dependencias do pom da raiz
 
-Cria a base "desafio" no seu MySQL e configure a conexão no properties:
+Cria a base "desafio" no seu MySQL e configure a conexão no properties dos seguintes projetos:
 
 ![alt text](https://artcousan.github.io/img/Datasource%20config.PNG)
+
+![alt text](https://artcousan.github.io/img/Datasource%20config%202.PNG)
 
 Ordem de execução dos applications:
 
