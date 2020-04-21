@@ -1,4 +1,4 @@
-# Desafio
+# Microservice
 
 Spring Boot + Microservice + Swagger2
 
@@ -71,7 +71,7 @@ Discovery:
 
 ![alt text](https://artcousan.github.io/img/9%20-%20Removido%20a%20quantidade.PNG)
 
-## 10 - E o pedido cadastratado para o usuario
+## 10 - E o pedido cadastrado para o usuario
 
 ![alt text](https://artcousan.github.io/img/10%20-%20Pedido.PNG)
 
