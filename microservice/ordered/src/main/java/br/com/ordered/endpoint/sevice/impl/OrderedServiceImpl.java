@@ -6,14 +6,10 @@ import br.com.core.model.ProductEntity;
 import br.com.core.model.UserEntity;
 import br.com.core.repository.OrderedItemRepository;
 import br.com.core.repository.OrderedRepository;
-import br.com.core.repository.ProductRepository;
-import br.com.core.repository.UserRepository;
 import br.com.ordered.endpoint.dto.OrderedSaveDTO;
 import br.com.ordered.endpoint.sevice.OrderedService;
 import br.com.product.endpoint.service.ProductService;
 import br.com.users.endpoint.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;

@@ -17,7 +17,7 @@ public class OrderedItemEntity {
     @Column(name ="ORDERED_ITEM_ID")
     private Long id;
 
-    @JsonManagedReference
+    @JsonIgnore
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "PRODUCT_ID")
     private ProductEntity product;

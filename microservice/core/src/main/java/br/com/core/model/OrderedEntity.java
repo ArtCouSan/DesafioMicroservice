@@ -1,5 +1,6 @@
 package br.com.core.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
@@ -20,7 +21,7 @@ public class OrderedEntity {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "ordered", fetch = FetchType.EAGER)
     private List<OrderedItemEntity> orderedItem;
 
-    @JsonIgnore
+    @JsonBackReference
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "ORDERED_ID_USER")
     private UserEntity user;
