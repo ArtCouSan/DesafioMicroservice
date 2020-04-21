@@ -70,7 +70,7 @@ Discovery:
 
 ![alt text](https://artcousan.github.io/img/8%20-%20Realize%20um%20pedido.PNG)
 
-## 9 - Pode-se se notar que a quantidade presente do produto diminuiu
+## 9 - Pode se notar que a quantidade do produto diminuiu
 
 ![alt text](https://artcousan.github.io/img/9%20-%20Removido%20a%20quantidade.PNG)
 
